@@ -4,20 +4,20 @@
 jetson-inference는 NVIDIA에서 제공하는 딥러닝 추론 예제/라이브러리입니다.
 
 ## 저장소 클론
-`ash
+```bash
 git clone --recursive https://github.com/dusty-nv/jetson-inference
 cd jetson-inference
-`
+```
 
 ## 빌드
-`ash
+```b
 mkdir build
 cd build
 cmake ../
 make -j4
 sudo make install
 sudo ldconfig
-`
+```
 
 ## 모델 다운로드
 빌드 과정 또는 스크립트를 통해 사전학습 모델을 다운로드합니다.
