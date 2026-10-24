@@ -4,10 +4,10 @@
 Pose Estimation으로 사람의 관절 위치를 추정합니다.
 
 ## 예제
-`ash
+```bash
 posenet images/humans_0.jpg output.jpg
 posenet /dev/video0
-`
+```
 
 ## 키포인트
 - 어깨, 팔꿈치, 손목 등 신체 부위
