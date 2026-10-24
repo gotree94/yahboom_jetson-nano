@@ -20,20 +20,23 @@ Yahboom Jetson Nano 4GB(B01/SUB)에 기본 탑재된 카메라 모듈을 사용�
 4. 커넥터를 잠급니다.
 
 ## 카메라 확인
-`ash
+
+```
 ls /dev/video*
-`
+```
 
 ## 테스트 명령어
-`ash
+
+```
 # 간단한 미리보기 (nvgstcapture)
 nvgstcapture-1.0
-`
+```
 
 또는 GStreamer를 사용한 테스트:
-`ash
+
+```
 gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=1280,height=720,framerate=30/1' ! nvvidconv ! nvoverlaysink
-`
+```
 
 ## 트러블슈팅
 - 카메라 인식 안됨: 케이블 방향/접촉 확인
