@@ -21,20 +21,20 @@ Yahboom Jetson Nano 4GB(B01/SUB)에 기본 탑재된 카메라 모듈을 사용�
 
 ## 카메라 확인
 
-```
+```bash
 ls /dev/video*
 ```
 
 ## 테스트 명령어
 
-```
+```bash
 # 간단한 미리보기 (nvgstcapture)
 nvgstcapture-1.0
 ```
 
 또는 GStreamer를 사용한 테스트:
 
-```
+```bash
 gst-launch-1.0 nvarguscamerasrc ! 'video/x-raw(memory:NVMM),width=1280,height=720,framerate=30/1' ! nvvidconv ! nvoverlaysink
 ```
 
