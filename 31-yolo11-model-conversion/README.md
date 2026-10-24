@@ -8,11 +8,11 @@ YOLOv11 모델을 Jetson에 최적화된 형식으로 변환합니다.
 - ONNX → TensorRT (.engine)
 
 ## CLI 예시
-`ash
+```bash
 yolo export model=yolo11n.pt format=onnx
 # TensorRT 변환은 trtexec 또는 ultralytics export format=engine 사용
 yolo export model=yolo11n.pt format=engine device=0
-`
+```
 
 ## 주의사항
 - Jetson Nano 메모리 제약 고려
