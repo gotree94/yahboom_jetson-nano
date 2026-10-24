@@ -8,24 +8,28 @@ USB 웹캠을 Jetson Nano에 연결하여 테스트하는 방법을 학습합니
 - Jetson Nano
 
 ## 카메라 확인
-`ash
+
+```bash
 lsusb
 v4l2-ctl --list-devices
-`
+```
 
 ## 테스트
-`ash
+
+```bash
 # Cheese 등 GUI 도구
 cheese
-`
+```
 
 GStreamer 사용:
-`ash
+
+```bash
 gst-launch-1.0 v4l2src device=/dev/video0 ! videoconvert ! xvimagesink
-`
+```
 
 Python + OpenCV:
-`python
+
+```python
 import cv2
 cap = cv2.VideoCapture(0)
 while True:
@@ -35,7 +39,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'): break
 cap.release()
 cv2.destroyAllWindows()
-`
+```
 
 ## 주의사항
 - 해상도/프레임레이트 호환성 확인
