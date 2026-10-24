@@ -7,10 +7,10 @@
 입력 이미지를 미리 정의된 클래스 중 하나로 분류합니다.
 
 ## 실행 예시
-`ash
+```bash
 imagenet --model=models/googlenet --input_blob=input_0 --output_blob=output_0 \
   images/cat.jpg output.jpg
-`
+```
 
 ## 응용
 - 웹캠 실시간 분류
