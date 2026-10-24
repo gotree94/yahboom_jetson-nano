@@ -4,10 +4,10 @@
 객체 탐지(Object Detection)로 이미지 내 여러 객체 위치와 클래스를 탐지합니다.
 
 ## 예제
-`ash
+```bash
 detectnet images/peds_0.jpg output.jpg
 detectnet /dev/video0
-`
+```
 
 ## 모델
 - SSD-Mobilenet-v2 등
