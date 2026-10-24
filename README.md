@@ -1,5 +1,4 @@
-# yahboom_jetson-nano
-
+# yahboom Jetson nano 4GB(B01/SUB)
 
 https://www.yahboom.net/study/jetson-nano/6818
 
