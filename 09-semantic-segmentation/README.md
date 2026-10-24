@@ -4,10 +4,10 @@
 Semantic Segmentation은 픽셀 단위로 클래스를 분류합니다.
 
 ## 예제
-`ash
+```bash
 segnet images/room_0.jpg output.jpg
 segnet /dev/video0
-`
+```
 
 ## 활용
 - 도로 장면 이해
