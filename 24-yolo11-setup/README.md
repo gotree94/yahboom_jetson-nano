@@ -4,21 +4,21 @@
 Ultralytics YOLOv11 환경을 구축합니다.
 
 ## 설치
-`ash
+```bash
 pip install ultralytics
-`
+```
 
 또는 저장소 클론:
-`ash
+```bash
 git clone https://github.com/ultralytics/ultralytics
 cd ultralytics
 pip install -e .
-`
+```
 
 ## 확인
-`ash
+```bash
 yolo version
-`
+```
 
 ## Jetson 최적화
 TensorRT 사용을 고려합니다.
