@@ -2,6 +2,8 @@
 
 본 저장소는 [Yahboom Jetson Nano 튜토리얼](https://www.yahboom.net/study/jetson-nano/6818)을 바탕으로, 실습 중심의 교육용 커리큘럼으로 정리한 자료입니다.
 
+![](index.png)
+
 ## 대상
 - Yahboom Jetson Nano 4GB (B01)
 - Yahboom Jetson Nano 4GB (SUB)
